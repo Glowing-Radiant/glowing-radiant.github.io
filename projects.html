@@ -7,58 +7,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Projects</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html" aria-current="page">Projects</a></li>
-                <li><a href="sponsors.html">Sponsors</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section aria-labelledby="projects-heading">
-            <h2 id="projects-heading">Accessibility Projects</h2>
-            <p>Here are some of the accessibility-focused projects I've been working on:</p>
-
-            <article>
-                <h3>Virtual Taylor Frame</h3>
-                <p>An interactive grid application designed to simulate a physical Taylor Frame, commonly used in mathematics education for visually impaired students. This digital version provides an accessible experience with keyboard navigation, text-to-speech feedback, and screen reader compatibility.</p>
-                <h4>Features:</h4>
+    <div class="container">
+        <header>
+            <h1>Projects</h1>
+            <p>Tools for the ears, fingers, and mind.</p>
+            <nav>
                 <ul>
-                    <li>Interactive 18x25 grid with customizable size</li>
-                    <li>Keyboard navigation and shortcuts</li>
-                    <li>Text-to-speech feedback with cytolk</li>
-                    <li>Sound effects for different actions</li>
-                    <li>Auto-shift, smart delete, and fast move options</li>
-                    <li>Full screen reader compatibility</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html" aria-current="page">Projects</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
                 </ul>
-                <p>
-                    <a href="https://github.com/Glowing-Radiant/virtual-taylor-frame" aria-label="View Virtual Taylor Frame repository on GitHub">View on GitHub</a> | 
-                    <a href="https://github.com/Glowing-Radiant/virtual-taylor-frame/releases/download/v1.0.0/virtual.taylor.frame.exe" aria-label="Download Virtual Taylor Frame version 1.0.0 executable" download>Download v1.0.0 (Windows .exe)</a>
-                </p>
-            </article>
+            </nav>
+        </header>
 
-            <article>
-                <h3>The Internet Analog Radio</h3>
-                <p>An audio-first experience that brings the nostalgia of analog radio to the internet age. This project focuses on creating an accessible, sound-based interface for exploring online audio content.</p>
-                <h4>Features:</h4>
-                <ul>
-                    <li>Accessible audio-first interface</li>
-                    <li>Python-based implementation</li>
-                    <li>Built with accessibility in mind</li>
-                </ul>
-                <p>
-                    <a href="https://github.com/Glowing-Radiant/the_internet-analog_radio" aria-label="View The Internet Analog Radio repository on GitHub">View on GitHub</a>
-                </p>
-            </article>
-        </section>
-    </main>
+        <main>
+            <section aria-labelledby="vt-heading">
+                <h2 id="vt-heading">Virtual Taylor Frame</h2>
+                <div>
+                    <p>An interactive grid application designed to simulate a physical Taylor Frame, commonly used in mathematics education for visually impaired students. Digital, accessible, and audible.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>18x25 interactive grid with resize options</li>
+                        <li>Full keyboard navigation & shortcuts</li>
+                        <li>High-fidelity text-to-speech feedback (cytolk)</li>
+                        <li>Auditory cues for spatial awareness</li>
+                    </ul>
+                    
+                    <p style="margin-top: 1.5rem;">
+                        <a href="https://github.com/Glowing-Radiant/virtual-taylor-frame" aria-label="View Source">View Source</a>
+                        <br>
+                        <a href="https://github.com/Glowing-Radiant/virtual-taylor-frame/releases/download/v1.0.0/virtual.taylor.frame.exe" download>Download Executable (v1.0.0)</a>
+                    </p>
+                </div>
+            </section>
 
-    <footer>
-        <p>&copy; 2026 Prateek Kumar. All rights reserved.</p>
-    </footer>
+            <section aria-labelledby="radio-heading">
+                <h2 id="radio-heading">Internet Analog Radio</h2>
+                <div>
+                    <p>Bringing the static, tuning, and discovery of analog radio to the modern web. An audio-first interface for exploring online streams without visual clutter.</p>
+                    
+                    <h3>Tech Stack</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Audio Processing Libraries</li>
+                        <li>Accessibility-first Architecture</li>
+                    </ul>
+
+                    <p style="margin-top: 1.5rem;">
+                        <a href="https://github.com/Glowing-Radiant/the_internet-analog_radio">View on GitHub</a>
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Prateek Kumar / New Delhi</p>
+        </footer>
+    </div>
 </body>
 </html>

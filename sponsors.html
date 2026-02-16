@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sponsors - Prateek Kumar</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <h1>Sponsors</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="sponsors.html" aria-current="page">Sponsors</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Sponsors</h1>
+            <p>Open Source is free to use, not free to make.</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="sponsors.html" aria-current="page">Sponsors</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <section class="sponsor-cta" aria-labelledby="cta-heading">
-            <h2 id="cta-heading">Simply being here means a lot!</h2>
-            <p class="encouragement">Be the first to sponsor! Your support helps keep these projects accessible and free
-                for everyone.</p>
-
-            <div class="sponsor-methods">
-                <div class="upi-box">
-                    <h3>Support via UPI</h3>
-                    <p>
-                        <a href="upi://pay?pa=kumarprateek312@oksbi&pn=PrateekKumar" aria-label="Pay via UPI">Pay via
-                            UPI</a>
-                    </p>
-                    <p>UPI ID: <strong>kumarprateek312@oksbi</strong></p>
-                    <figure>
-                        <img src="qr-code-placeholder.png" alt="UPI QR code for payment to kumarprateek312@oksbi"
-                            width="200" height="200">
-                        <figcaption>Scan to pay via UPI</figcaption>
-                    </figure>
+        <main>
+            <section aria-labelledby="why-heading">
+                <h2 id="why-heading">Why Sponsor?</h2>
+                <div>
+                    <p>Your support directly funds server costs, hardware for testing, and the coffee required to build accessible tools for everyone.</p>
+                    <p>Be the first to sponsor and help sustain this work.</p>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section aria-labelledby="sponsors-list-heading">
-            <h2 id="sponsors-list-heading">Our Supporters</h2>
-            <!-- This list is currently empty, but waiting for you! -->
-            <p>No sponsors yet.</p>
-        </section>
-    </main>
+            <section aria-labelledby="upi-heading">
+                <h2 id="upi-heading">Via UPI</h2>
+                <div>
+                    <p style="font-size: 1.2rem; font-weight: bold;">kumarprateek312@oksbi</p>
+                    <p>Scan to pay via any UPI app.</p>
+                    
+                    <figure style="margin-top: 1rem; border: 2px solid var(--text-color); display: inline-block; padding: 1rem;">
+                        <img src="https://placehold.co/200x200?text=QR+Code" alt="UPI QR Code for kumarprateek312@oksbi" width="200" height="200" style="display: block;">
+                        <figcaption style="margin-top: 0.5rem; font-size: 0.8rem; text-align: center; text-transform: uppercase;">Scan Code</figcaption>
+                    </figure>
 
-    <footer>
-        <p>&copy; 2026 Prateek Kumar. All rights reserved.</p>
-    </footer>
+                    <p style="margin-top: 1rem;">
+                        <a href="upi://pay?pa=kumarprateek312@oksbi&pn=PrateekKumar">Open in UPI App &rarr;</a>
+                    </p>
+                </div>
+            </section>
+
+            <section aria-labelledby="list-heading">
+                <h2 id="list-heading">Current Sponsors</h2>
+                <div>
+                    <p style="color: var(--secondary-text); font-style: italic;">No active sponsors yet. Join the list!</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Prateek Kumar / New Delhi</p>
+        </footer>
+    </div>
 </body>
-
 </html>
